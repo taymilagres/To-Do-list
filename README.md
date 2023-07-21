@@ -17,9 +17,9 @@ Atualmente, muitas pessoas fazem o uso dessa técnica em seu dia a dia, seja  ma
 **1-** Clique em cima da tarefa ou na área de seleção localizada á esquerda da tarefa. <br>
 
 # Metodologia utilizada:
-| Repositório do Código Fonte | Artefatos utilizados | Armazenamento de dados |
-| --------------------------- | -------------------- | ---------------------- |
-| Github                      | index.html <br> style.css <br> script.js <br> Pasta img: <br> caixa-de-selecao-com-sinal-de-verificacao.png <br> caixa-de-selecao-vazia.png | Local Storage |
+| Repositório do Código Fonte | Artefatos utilizados | Armazenamento de dados | Hospedagem |
+| --------------------------- | -------------------- | ---------------------- | ---------- |
+| Github                      | index.html <br> style.css <br> script.js <br> Pasta img: <br> caixa-de-selecao-com-sinal-de-verificacao.png <br> caixa-de-selecao-vazia.png | Local Storage | Github Pages |
 
 
 
