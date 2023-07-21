@@ -1,4 +1,4 @@
-# To-Do list
+# To-Do list ![lista-de-controle (1)](https://github.com/taymilagres/To-Do-list/assets/127251265/6768919f-47b4-4f70-9cc9-0ee2c8929a20)
  A "_To-do list_" é uma lista de tarefas, onde os afazeres normalmente são organizados por ordem de prioridade. Sua função é ajudar as pessoas a se organizarem melhor, sem esquecer nenhuma demanda proposta, a fim de auxiliar as pessoas a concluir suas atividades mais rápido e dentro do prazo proposto. <br>
  
 Atualmente, muitas pessoas fazem o uso dessa técnica em seu dia a dia, seja  manualmente (Escrevendo em um papel) ou de forma digital.
