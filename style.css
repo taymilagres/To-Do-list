@@ -1,0 +1,153 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Estilização main */
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(41,160,170,1) 0%, rgba(203,22,178,1) 52%, rgba(89,0,255,1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 10% 30% 10%;
+    box-shadow: 14px 17px 5px -4px rgba(84,84,84,0.56);
+    position: relative;
+
+}
+
+.toDoContent h2{
+    margin: 0;
+    padding-bottom: 5%;
+    padding-inline: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: none;
+    color: rgb(220, 106, 6);
+    font-size: 28px;
+
+}
+
+.toDoContent{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: none;
+    padding-bottom: 15%;
+    width: 30vw;
+    height: 40vh;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+input{
+    width: 25vw;
+    height: 5vh;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.084);
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+input:hover{
+    background-color: rgba(67, 65, 65, 0.121);
+}
+
+button{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(116, 42, 185);
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    user-select: none;
+    cursor: pointer;
+    padding: 12px 8px 12px 50px;
+    display: flex;
+    position: relative;
+
+   
+
+}
+
+ul li.check{
+    text-decoration: line-through;
+    color: rgb(103, 103, 103);
+
+}
+
+ul li.check::before{
+    background-image: url(img/caixa-de-selecao-com-sinal-de-verificacao.png);
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 28px;
+    height: 28px;  
+    background-image: url(img/caixa-de-selecao-vazia.png);
+    background-size: cover;
+    background-position: center;
+    left: 8px;
+    top: 12px;
+
+
+}
+
+.checkboxOff{
+    width: 25px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    display: block;
+}
+
+.checkboxOn{
+    width: 25px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    display: block;  
+}
