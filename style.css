@@ -8,6 +8,21 @@
 
 }
 
+/* Estilização Scroll bar */
+::-webkit-scrollbar-track {
+    background-color: #0080ff;
+    border: none;
+    
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #02141800;
+}
+::-webkit-scrollbar-thumb {
+    background: #ba09fb;
+    border-radius: 15px;
+}
+
 /* Estilização main */
 
 body{
@@ -20,7 +35,7 @@ body{
 
 .container{
     width: 40vw;
-    height: 50vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +54,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: none;
+    padding-top: 10%;
     color: rgb(220, 106, 6);
     font-size: 28px;
 
@@ -50,10 +65,12 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: none;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
     width: 30vw;
-    height: 40vh;
+    height: auto;
+    
 }
+
 
 .search{
     display: flex;
@@ -99,7 +116,7 @@ button:hover{
 
 ul li{
     list-style: none;
-    font-size: 17px;
+    font-size: 15px;
     user-select: none;
     cursor: pointer;
     padding: 12px 8px 12px 50px;
@@ -136,18 +153,21 @@ ul li::before{
 
 }
 
-.checkboxOff{
-    width: 25px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-    padding-right: 5px;
-    display: block;
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 23px;
+    color: #ff9705;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
 }
 
-.checkboxOn{
-    width: 25px;
-    padding-top: 2px;
-    padding-bottom: 0px;
-    padding-right: 5px;
-    display: block;  
+ul li span:hover{
+    background-color: #fb5858d7;
+    border-radius: 50%;
+    color: #fff;
 }
