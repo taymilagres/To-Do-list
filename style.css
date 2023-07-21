@@ -31,6 +31,7 @@ body{
     padding: 5px;
     background: linear-gradient(90deg, rgba(41,160,170,1) 0%, rgba(203,22,178,1) 52%, rgba(89,0,255,1) 100%);
     font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(20px);
 }
 
 .container{
